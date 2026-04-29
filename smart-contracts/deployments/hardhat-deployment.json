@@ -1,0 +1,8 @@
+{
+  "network": "Hardhat Local",
+  "deployer": "0x627306090abaB3A6e1400e9345bC60c78a8BEf57",
+  "DiplomaRegistry": "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF",
+  "IssuerRegistry": "0x8f0483125FCb9aaAEFA9209D8E9d7b9C8B9Fb90F",
+  "CredentialVerifier": "0x9FBDa871d559710256a2502A2517b794B482Db40",
+  "deploymentDate": "2026-04-26T00:43:51.429Z"
+}

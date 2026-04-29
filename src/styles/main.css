@@ -1,0 +1,126 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #1f2937;
+  --primary: #2563eb;
+  --accent: #10b981;
+  --border: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+.app-main {
+  padding: 2rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.75rem;
+  max-width: 900px;
+  margin: 1rem auto;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.06);
+}
+
+.form-group {
+  display: grid;
+  gap: 1rem;
+}
+
+input[type="text"], input[type="file"] {
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  width: 100%;
+}
+
+button.btn {
+  border: none;
+  border-radius: 12px;
+  padding: 0.95rem 1.25rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.alert-error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-message {
+  margin-top: 1rem;
+  color: var(--text);
+}
+
+.verification-card {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.verification-summary {
+  margin-top: 1rem;
+}
+
+.credential-data p {
+  margin: 0.2rem 0;
+}

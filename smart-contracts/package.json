@@ -1,0 +1,11 @@
+{
+  "name": "diploma-verification-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for diploma verification",
+  "main": "index.js",
+  "devDependencies": {
+    "hardhat": "^2.22.2",
+    "@nomicfoundation/hardhat-toolbox": "hh2",
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
