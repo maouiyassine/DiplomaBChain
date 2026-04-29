@@ -26,6 +26,14 @@ uploads/
 *.log
 npm-debug.log*
 
+# Documents académiques
+*.docx
+*.pptx
+*.pdf
+
+# Claude Code
+.claude/
+
 # Système
 .DS_Store
 coverage/
